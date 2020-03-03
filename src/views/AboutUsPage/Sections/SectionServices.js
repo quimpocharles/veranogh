@@ -6,6 +6,8 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 import Gesture from "@material-ui/icons/Gesture";
 import Build from "@material-ui/icons/Build";
+import AccessTime from "@material-ui/icons/AccessTime";
+
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -31,41 +33,37 @@ export default function SectionServices() {
         >
           <h2 className={classes.title}>Smart Luxury</h2>
           <h5 className={classes.description}>
-            We enable digital connectivity for your convenience, electronically
-            accessible from the palm of your hand. Luxury is complemented by
-            innovation, always.
+            Verano offers a dual-level amenity deck premium facility that houses
+            a fitness center, pool, study room, mini private theater, game room,
+            function hall and a sky deck.
           </h5>
         </GridItem>
       </GridContainer>
       <GridContainer>
         <GridItem md={4} sm={4}>
           <InfoArea
-            title="1. Design"
+            title="24/7 access"
             description={
               <span>
                 <p>
-                  The moment you use Material Kit, you know you’ve never felt
-                  anything like it. With a single use, this powerfull UI Kit
-                  lets you do more than ever before.{" "}
+                  High-end equipment right outside your doorstep. Any time of
+                  the day.
                 </p>
-                <a href="#pablo">Find more...</a>
               </span>
             }
-            icon={Gesture}
+            icon={AccessTime}
             iconColor="rose"
           />
         </GridItem>
         <GridItem md={4} sm={4}>
           <InfoArea
-            title="2. Develop"
+            title="Description 2"
             description={
               <span>
                 <p>
-                  Divide details about your product or agency work into parts.
-                  Write a few lines about each one. A paragraph describing a
-                  feature will be enough.{" "}
+                  High-end equipment right outside your doorstep. Any time of
+                  the day.
                 </p>
-                <a href="#pablo">Find more...</a>
               </span>
             }
             icon={Build}
@@ -74,15 +72,13 @@ export default function SectionServices() {
         </GridItem>
         <GridItem md={4} sm={4}>
           <InfoArea
-            title="3. Make Edits"
+            title="Description 3"
             description={
               <span>
                 <p>
-                  Divide details about your product or agency work into parts.
-                  Write a few lines about each one. A paragraph describing a
-                  feature will be enough.{" "}
+                  High-end equipment right outside your doorstep. Any time of
+                  the day.
                 </p>
-                <a href="#pablo">Find more...</a>
               </span>
             }
             icon="mode_edit"

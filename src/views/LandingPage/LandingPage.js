@@ -32,10 +32,10 @@ import SectionWork from "./Sections/SectionWork.js";
 const useStyles = makeStyles(landingPageStyle);
 
 export default function LandingPage({ ...rest }) {
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-    document.body.scrollTop = 0;
-  });
+  // React.useEffect(() => {
+  //   window.scrollTo(0, 0);
+  //   document.body.scrollTop = 0;
+  // });
   const classes = useStyles();
   return (
     <div>
@@ -53,7 +53,7 @@ export default function LandingPage({ ...rest }) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={6} md={6}>
-              <h1 className={classes.title}>
+              <h1 className={classes.title} style={{ fontFamily: "Lemon" }}>
                 Your new home in Greenhills awaits.
               </h1>
               <h4>
@@ -85,12 +85,14 @@ export default function LandingPage({ ...rest }) {
             <div className={classes.right}>
               &copy; {1900 + new Date().getYear()} , Let{"'"}s make websites
               great again.{" "}
-              <a
-                href="https://www.linkedin.com/in/charlesquimpo"
-                target="_blank"
-              >
-                CQ Studios
-              </a>
+              <span className="cqBrand">
+                <a
+                  href="https://www.linkedin.com/in/charlesquimpo"
+                  target="_blank"
+                >
+                  CQ Studios
+                </a>
+              </span>
             </div>
           </div>
         }

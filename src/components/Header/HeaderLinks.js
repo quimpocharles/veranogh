@@ -12,6 +12,8 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Icon from "@material-ui/core/Icon";
 import Hidden from "@material-ui/core/Hidden";
+import Fitness from "@material-ui/icons/FitnessCenter";
+import Home from "@material-ui/icons/Home";
 
 // @material-ui/icons
 import Apps from "@material-ui/icons/Apps";
@@ -94,13 +96,23 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list + " " + classes.mlAuto}>
       <ListItem className={classes.listItem}>
+        <Link className={classes.navLink} to="/">
+          <Home className={classes.icons} />
+          Home
+        </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <Link className={classes.navLink} to="/units">
-          <Layers className={classes.icon} />
+          <Layers className={classes.icons} />
           The Units
         </Link>
       </ListItem>
-      <ListItem className={classes.listItem}></ListItem>
-      <ListItem className={classes.listItem}></ListItem>
+      <ListItem className={classes.listItem}>
+        <Link className={classes.navLink} to="/ameneties">
+          <Fitness className={classes.icons} />
+          Ameneties
+        </Link>
+      </ListItem>
       <ListItem className={classes.listItem}>
         <Hidden smDown>
           <HashLink to="/#contact">

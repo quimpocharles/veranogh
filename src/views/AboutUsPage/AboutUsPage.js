@@ -57,11 +57,6 @@ export default function AboutUsPage({ ...rest }) {
               )}
             >
               <h1 className={classes.title}>Ameneties</h1>
-              <h4>
-                Verano offers a dual-level amenity deck premium facility that
-                houses a fitness center, pool, study room, mini private theater,
-                game room, function hall and a sky deck.
-              </h4>
             </GridItem>
           </GridContainer>
         </div>
@@ -72,6 +67,26 @@ export default function AboutUsPage({ ...rest }) {
           <SectionServices />
         </div>
       </div>
+
+      <Footer
+        content={
+          <div>
+            <div className={classes.left}></div>
+            <div className={classes.right}>
+              &copy; {1900 + new Date().getYear()} , Let{"'"}s make websites
+              great again.{" "}
+              <span className="cqBrand">
+                <a
+                  href="https://www.linkedin.com/in/charlesquimpo"
+                  target="_blank"
+                >
+                  CQ Studios
+                </a>
+              </span>
+            </div>
+          </div>
+        }
+      />
     </div>
   );
 }
