@@ -15,8 +15,6 @@ import Footer from "components/Footer/Footer.js";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import SectionLatestOffers from "views/EcommercePage/Sections/SectionLatestOffers.js";
-import SectionProducts from "views/EcommercePage/Sections/SectionProducts.js";
-import SectionBlog from "views/EcommercePage/Sections/SectionBlog.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";

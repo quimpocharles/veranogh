@@ -11,8 +11,6 @@ import "animate.css/animate.min.css";
 import contentStyle from "assets/jss/material-kit-pro-react/views/presentationSections/contentStyle.js";
 // images
 import grandTaipanLogo from "assets/img/gt.png";
-import presentationiPadComments from "assets/img/assets-for-demo/presentationViewSectionComponent/ipad-comments.jpg";
-import presentationiPadTable from "assets/img/assets-for-demo/presentationViewSectionComponent/ipad-table.jpg";
 
 const useStyles = makeStyles(contentStyle);
 

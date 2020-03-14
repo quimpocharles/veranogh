@@ -41,10 +41,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import productStyle from "assets/jss/material-kit-pro-react/views/productStyle.js";
 
 // images
-import cardProduct1 from "assets/img/examples/card-product1.jpg";
-import cardProduct3 from "assets/img/examples/card-product3.jpg";
-import cardProduct4 from "assets/img/examples/card-product4.jpg";
-import cardProduct2 from "assets/img/examples/card-product2.jpg";
+
 import product1 from "assets/img/room.jpg";
 import product2 from "assets/img/studio2.jpeg";
 import product3 from "assets/img/studio3.jpeg";
@@ -119,7 +116,7 @@ export default function ProductPage(props) {
         }}
       />
       <Parallax
-        image={require("assets/img/bg6.jpg")}
+        image={require("assets/img/room.jpg")}
         filter="dark"
         className={classes.pageHeader}
       ></Parallax>
