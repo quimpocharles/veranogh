@@ -41,7 +41,6 @@ import Tooltip from "@material-ui/core/Tooltip";
 import productStyle from "assets/jss/material-kit-pro-react/views/productStyle.js";
 
 // images
-
 import product1 from "assets/img/room.jpg";
 import product2 from "assets/img/studio2.jpeg";
 import product3 from "assets/img/studio3.jpeg";

@@ -25,7 +25,6 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import SectionDescription from "views/AboutUsPage/Sections/SectionDescription.js";
 import SectionTeam from "views/AboutUsPage/Sections/SectionTeam.js";
 import SectionServices from "views/AboutUsPage/Sections/SectionServices.js";
-import SectionContact from "views/AboutUsPage/Sections/SectionContact.js";
 
 import aboutUsStyle from "assets/jss/material-kit-pro-react/views/aboutUsStyle.js";
 
@@ -49,7 +48,7 @@ export default function AboutUsPage({ ...rest }) {
           color: "dark"
         }}
       />
-      <Parallax image={require("assets/img/pool_bgl.jpg")} filter="dark" small>
+      <Parallax image={require("assets/img/amm.jpg")} filter="dark" small>
         <div className={classes.container}>
           <GridContainer justify="center">
             <GridItem

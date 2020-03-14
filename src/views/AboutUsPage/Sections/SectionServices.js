@@ -4,9 +4,6 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
-import Gesture from "@material-ui/icons/Gesture";
-import Build from "@material-ui/icons/Build";
-import AccessTime from "@material-ui/icons/AccessTime";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
