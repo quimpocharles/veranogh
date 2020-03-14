@@ -22,7 +22,7 @@ import Button from "components/CustomButtons/Button.js";
 
 import contactsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/contactsStyle.js";
 
-import city from "assets/img/examples/city.jpg";
+import city from "assets/img/contact.jpg";
 
 const useStyles = makeStyles(contactsStyle);
 

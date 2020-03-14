@@ -13,76 +13,37 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 
-import servicesStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/servicesStyle.js";
+import productStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/productStyle.js";
 
-const useStyles = makeStyles(servicesStyle);
+const useStyles = makeStyles(productStyle);
 
-export default function SectionServices() {
+export default function SectionServices(props) {
   const classes = useStyles();
   return (
-    <div className={classes.services}>
+    <div className={classes.section}>
       <GridContainer>
-        <GridItem
-          md={8}
-          sm={8}
-          className={classNames(
-            classes.mlAuto,
-            classes.mrAuto,
-            classes.textCenter
-          )}
-        >
-          <h2 className={classes.title}>Smart Luxury</h2>
-          <h5 className={classes.description}>
-            Verano offers a dual-level amenity deck premium facility that houses
-            a fitness center, pool, study room, mini private theater, game room,
-            function hall and a sky deck.
-          </h5>
-        </GridItem>
-      </GridContainer>
-      <GridContainer>
-        <GridItem md={4} sm={4}>
+        <GridItem xs={12} sm={4} md={4}>
           <InfoArea
-            title="24/7 access"
-            description={
-              <span>
-                <p>
-                  High-end equipment right outside your doorstep. Any time of
-                  the day.
-                </p>
-              </span>
-            }
-            icon={AccessTime}
-            iconColor="rose"
+            title={props.t1}
+            icon={props.i1}
+            iconColor="warning"
+            vertical
           />
         </GridItem>
-        <GridItem md={4} sm={4}>
+        <GridItem xs={12} sm={4} md={4}>
           <InfoArea
-            title="Description 2"
-            description={
-              <span>
-                <p>
-                  High-end equipment right outside your doorstep. Any time of
-                  the day.
-                </p>
-              </span>
-            }
-            icon={Build}
-            iconColor="rose"
+            title={props.t2}
+            icon={props.i2}
+            iconColor="warning"
+            vertical
           />
         </GridItem>
-        <GridItem md={4} sm={4}>
+        <GridItem xs={12} sm={4} md={4}>
           <InfoArea
-            title="Description 3"
-            description={
-              <span>
-                <p>
-                  High-end equipment right outside your doorstep. Any time of
-                  the day.
-                </p>
-              </span>
-            }
-            icon="mode_edit"
-            iconColor="rose"
+            title={props.t3}
+            icon={props.i3}
+            iconColor="warning"
+            vertical
           />
         </GridItem>
       </GridContainer>

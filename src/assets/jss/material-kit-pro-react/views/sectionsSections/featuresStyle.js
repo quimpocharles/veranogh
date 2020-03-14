@@ -26,6 +26,7 @@ const features = {
     padding: "80px 0",
     "& $phoneContainer": {
       maxWidth: "220px",
+
       margin: "0 auto"
     }
   },

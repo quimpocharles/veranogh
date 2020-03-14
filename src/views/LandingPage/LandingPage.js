@@ -49,7 +49,7 @@ export default function LandingPage({ ...rest }) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/veranoLobby.jpg")} filter="dark">
+      <Parallax image={require("assets/img/w5.gif")} filter="dark">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={6} md={6}>
@@ -58,7 +58,18 @@ export default function LandingPage({ ...rest }) {
               </h1>
               <h4>
                 Urban luxury begins here. Think hotel amenities in a premium
-                central city home, and you have Verano Greenhills.
+                central city home, and you have{" "}
+                <span
+                  style={{
+                    fontFamily: "Lemon",
+                    letterSpacing: "5px",
+                    color: "#BB8E34",
+                    fontSize: "20px"
+                  }}
+                >
+                  Verano
+                </span>
+                .
               </h4>
               <br />
               <Link to="/units">

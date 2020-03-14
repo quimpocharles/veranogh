@@ -127,7 +127,7 @@ export default function ProductPage(props) {
         <div className={classes.container}>
           <div className={classNames(classes.main, classes.mainRaised)}>
             <GridContainer>
-              <GridItem md={6} sm={6}>
+              <GridItem md={6} sm={6} vertical>
                 <ImageGallery
                   showFullscreenButton={false}
                   showPlayButton={false}

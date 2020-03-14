@@ -19,7 +19,7 @@ import InfoArea from "components/InfoArea/InfoArea.js";
 
 import featuresStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle.js";
 
-import tower from "assets/img/sections/tower.png";
+import tower from "assets/img/verano-main.png";
 
 const useStyles = makeStyles(featuresStyle);
 
@@ -68,7 +68,11 @@ export default function SectionFeatures({ ...rest }) {
             </GridItem>
             <GridItem xs={12} sm={12} md={12} lg={4}>
               <div className={classes.phoneContainer}>
-                <img src={tower} alt="Verano Luxury Residences" />
+                <img
+                  // style={{ height: "120vh" }}
+                  src={tower}
+                  alt="Verano Luxury Residences"
+                />
               </div>
             </GridItem>
             <GridItem xs={12} sm={12} md={12} lg={3} className={classes.mrAuto}>
