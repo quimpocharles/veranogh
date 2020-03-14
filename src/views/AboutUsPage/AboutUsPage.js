@@ -63,7 +63,7 @@ export default function AboutUsPage({ ...rest }) {
               <h1 className={classes.title}>Ameneties</h1>
               <h5 className={classes.description} style={{ color: "#fff" }}>
                 Complementing{" "}
-                <strong
+                <span
                   style={{
                     fontFamily: "Lemon",
                     letterSpacing: "5px",
@@ -72,7 +72,7 @@ export default function AboutUsPage({ ...rest }) {
                   }}
                 >
                   Verano
-                </strong>{" "}
+                </span>{" "}
                 Greenhills{"'"} modern architectural design is the building{"'"}
                 s bi-level amenity area. <em>Maaliwalas</em> is a Filipino term
                 that connotes openness, refreshing and breathable – is what we
@@ -98,7 +98,7 @@ export default function AboutUsPage({ ...rest }) {
           <SectionTeam />
 
           <SectionServices
-            t1="KTV Music Room"
+            t1="KTV Room"
             i1={MusicVideo}
             t2="Game Room"
             i2={VideoGameAsset}

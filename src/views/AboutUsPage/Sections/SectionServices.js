@@ -19,7 +19,7 @@ export default function SectionServices(props) {
   return (
     <div className={classes.section}>
       <GridContainer>
-        <GridItem xs={12} sm={4} md={4}>
+        <GridItem xs={4} sm={4} md={4}>
           <InfoArea
             title={props.t1}
             icon={props.i1}
@@ -27,7 +27,7 @@ export default function SectionServices(props) {
             vertical
           />
         </GridItem>
-        <GridItem xs={12} sm={4} md={4}>
+        <GridItem xs={4} sm={4} md={4}>
           <InfoArea
             title={props.t2}
             icon={props.i2}
@@ -35,7 +35,7 @@ export default function SectionServices(props) {
             vertical
           />
         </GridItem>
-        <GridItem xs={12} sm={4} md={4}>
+        <GridItem xs={4} sm={4} md={4}>
           <InfoArea
             title={props.t3}
             icon={props.i3}

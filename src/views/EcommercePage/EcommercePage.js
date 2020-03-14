@@ -65,10 +65,21 @@ export default function EcommercePage() {
               <div className={classes.brand}>
                 <h1 className={classes.title}>The Units</h1>
                 <h4>
-                  No other part of Verano Greenhills fulfills its promise of
-                  luxury better than its units. Your living space, your infinite
-                  victory: you decide how energy flows through your domain. The
-                  best arrangement is what makes you feel at home.
+                  No other part of{" "}
+                  <span
+                    style={{
+                      fontFamily: "Lemon",
+                      letterSpacing: "5px",
+                      color: "#BB8E34",
+                      fontSize: "20px"
+                    }}
+                  >
+                    Verano
+                  </span>{" "}
+                  Greenhills fulfills its promise of luxury better than its
+                  units. Your living space, your infinite victory: you decide
+                  how energy flows through your domain. The best arrangement is
+                  what makes you feel at home.
                 </h4>
               </div>
             </GridItem>
