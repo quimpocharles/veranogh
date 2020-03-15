@@ -19,7 +19,7 @@ import InfoArea from "components/InfoArea/InfoArea.js";
 
 import featuresStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle.js";
 
-import tower from "assets/img/verano-main.png";
+import tower from "assets/img/verano-main2.png";
 
 const useStyles = makeStyles(featuresStyle);
 
