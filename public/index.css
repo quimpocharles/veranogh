@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "Lemon";
+	src: url("./fonts/LemonMilk.otf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Lemon", serif;
+	letter-spacing: 8px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.cqBrand {
+	font-weight: 700;
+	background: linear-gradient(-45deg, #bb8e34, #141414);
+	background-image: -webkit-linear-gradient(92deg, #bb8e34, #141414);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+	from {
+		-webkit-filter: hue-rotate(0deg);
+	}
+	to {
+		-webkit-filter: hue-rotate(-360deg);
+	}
+}
