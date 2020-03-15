@@ -18,6 +18,10 @@ import pillsStyle from "assets/jss/material-kit-pro-react/views/componentsSectio
 import Room from "../components/ItemRoom";
 import Floors from "../components/Floors";
 
+import lowZone from "assets/img/low-opt.jpg";
+import highZone from "assets/img/high-opt.jpg";
+import penthouse from "assets/img/pent-opt.jpg";
+
 const useStyles = makeStyles(pillsStyle);
 // const useStyles = makeStyles(styles);
 
@@ -35,40 +39,35 @@ export default function SectionLatestOffers() {
               tabs={[
                 {
                   tabButton: "Low Zone",
-                  tabContent: <Floors />
+                  tabContent: (
+                    <Floors
+                      image={lowZone}
+                      size={4}
+                      title="Levels 26-45"
+                      floor="low"
+                    />
+                  )
                 },
                 {
                   tabButton: "High Zone",
                   tabContent: (
-                    <span>
-                      <p>
-                        Efficiently unleash cross-media information without
-                        cross-media value. Quickly maximize timely deliverables
-                        for real-time schemas.{" "}
-                      </p>
-                      <br />
-                      <p>
-                        Dramatically maintain clicks-and-mortar solutions
-                        without functional solutions.
-                      </p>
-                    </span>
+                    <Floors
+                      image={highZone}
+                      size={3}
+                      title="Levels 46-55"
+                      floor="high"
+                    />
                   )
                 },
                 {
                   tabButton: "Penthouse",
                   tabContent: (
-                    <span>
-                      <p>
-                        Completely synergize resource taxing relationships via
-                        premier niche markets. Professionally cultivate
-                        one-to-one customer service with robust ideas.{" "}
-                      </p>
-                      <br />
-                      <p>
-                        Dynamically innovate resource-leveling customer service
-                        for state of the art customer service.
-                      </p>
-                    </span>
+                    <Floors
+                      image={penthouse}
+                      size={6}
+                      title="Levels 56-57"
+                      floor="pent"
+                    />
                   )
                 }
               ]}
